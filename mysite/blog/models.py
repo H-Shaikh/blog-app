@@ -48,3 +48,9 @@ class Post(models.Model):
                              self.publish.month,
                              self.publish.day,
                              self.slug])
+        
+
+# class Comment(models.Model):
+#     post =- models.ForeignKey(Post, on_delete=models.CASCADE, related_name='comments')
+    
+    
